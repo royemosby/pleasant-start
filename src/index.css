@@ -19,16 +19,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* pulling colors from reasonable-colors library */
+
   --header-height: 160px;
   --medium-radius: 22px;
   --small-radius: 12px;
-  --dark-blue: #12284c;
-  --medium-blue: #b3e0dc;
-  --medium-gray: #b6bcc8;
-  --light-blue: #e7f6f4;
-  --light-red: #ffccc0;
-  --medium-yellow: #fbecb0;
-  --dark-yellow: #f7d754;
+
+  --light-blue: var(--color-sky-1);
+  --medium-blue: var(--color-sky-2);
+  --dark-blue: var(--color-sky-6);
+
+  --medium-gray: var(--color-gray-3);
+
+  --light-red: var(--color-raspberry-2);
+  --medium-red: var(--color-raspberry-3);
+
+  --medium-yellow: var(--color-yellow-1);
+  --dark-yellow: var(--color-yellow-2);
 }
 
 body {
